@@ -1,0 +1,12 @@
+Puxa tudo = response.css('p:nth-child(29)::text , p:nth-child(26)::text, p:nth-child(22)::text, p:nth-child(19)::text, p:nth-child(16)::text').getall()
+
+regex
+posição = (^\d+)
+
+artista = (?<=-\s)[^,]+(?=,)
+
+album = (?<=,\s)[^,]+(?=\s\()
+
+ano = \([^\)]+\)
+
+caracteres especiais/espaços = [^\w]
